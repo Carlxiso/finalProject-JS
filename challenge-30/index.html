@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge Twenty-nine</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                <span data-js="company-name"></span> -
+                <span data-js="company-phone"></span>
+            </h1>
+        </header>
+        <form action="/" data-js="form-register">
+            <ul>
+                <li>
+                    <label>Car Image</label>
+                    <input type="url" data-js="Image-car">
+                </li>
+                <li>
+                    <label>Brand / Model</label>
+                    <input type="text" data-js="brand-model">
+                </li>
+                <li>
+                    <label>Year</label>
+                    <input type="text" data-js="year">
+                </li>
+                <li>
+                    <label>Board</label>
+                    <input type="text" data-js="board">
+                </li>
+                <li>
+                    <label>Colour</label>
+                    <input type="text" data-js="colour">
+                </li>
+                <li>
+                    <button type="submit" name="button">Register</button>
+                </li>
+            </ul>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Car Image</th>
+                    <th>Brand / Model</th>
+                    <th>Year</th>
+                    <th>Board</th>
+                    <th>Colour</th>
+
+                </tr>
+
+                <tbody data-js="table-car">
+
+                </tbody>
+            </thead>
+        </table>
+
+    <script type="text/javascript" src="dom.js"></script>
+    <script type="text/javascript" src="challenge-29.js"></script>
+    </body>
+</html>
